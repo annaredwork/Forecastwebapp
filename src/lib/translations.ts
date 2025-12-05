@@ -1,0 +1,40 @@
+export type Language = 'en' | 'ru' | 'ua';
+
+export const translations = {
+  en: {
+    appTitle: 'Forecast',
+    heroTitle: 'Here you can get advice',
+    getPrediction: 'Get Advice',
+    getAnother: 'Get Another Advice',
+    copyQuote: 'Copy',
+    copied: 'Copied!',
+    home: 'Home',
+    history: 'History',
+    historyTitle: 'History',
+    historyContent: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  },
+  ru: {
+    appTitle: 'Прогноз',
+    heroTitle: 'Тут вы можете получить совет',
+    getPrediction: 'Получить совет',
+    getAnother: 'Получить ещё совет',
+    copyQuote: 'Копировать',
+    copied: 'Скопировано!',
+    home: 'Главная',
+    history: 'История',
+    historyTitle: 'История',
+    historyContent: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  },
+  ua: {
+    appTitle: 'Прогноз',
+    heroTitle: 'Тут ви можете отримати пораду',
+    getPrediction: 'Отримати пораду',
+    getAnother: 'Отримати ще пораду',
+    copyQuote: 'Копіювати',
+    copied: 'Скопійовано!',
+    home: 'Головна',
+    history: 'Історія',
+    historyTitle: 'Історія',
+    historyContent: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  },
+};
