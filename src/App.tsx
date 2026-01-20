@@ -8,7 +8,7 @@ import { FortuneCookiesPage } from './components/FortuneCookiesPage';
 import { CoffeePage } from './components/CoffeePage';
 import { InstallPWA } from './components/InstallPWA';
 import { type Language } from './lib/translations';
-import bgImage from 'figma:asset/ff9f276a279bbca6bb5349e235732b4ac69c6be7.png';
+import bgImage from './assets/1a33877d7f3a5f590d639a5cb7f5fa8bbb95fdf9.png';
 
 export default function App() {
   const [language, setLanguage] = useState<Language>('en');
